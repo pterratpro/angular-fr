@@ -93,6 +93,7 @@
     "@angular/compiler": "^14.2.0",
     "@angular/core": "^14.2.0",
     "@angular/elements": "^14.2.0",
+    "@angular/fire": "7.4.1",
     "@angular/forms": "^14.2.0",
     "@angular/material": "^14.2.0-next",
     "@angular/platform-browser": "^14.2.0",

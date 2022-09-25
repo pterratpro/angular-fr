@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-fr-36d3e": {
+      "hosting": {
+        "site": [
+          "angular-fr-doc"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-fr-36d3e"
+  }
+}
