@@ -137,8 +137,6 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "headers": {
-              // Keep in sync with the `firebase.json` file.
-              // Note: Unlike in `firebase.json` we omit the `report-uri` for development.
               "Content-Security-Policy": "require-trusted-types-for 'script'; trusted-types angular angular#bundler angular#unsafe-bypass aio#analytics google#safe goog#html"
             }
           },
@@ -178,7 +176,11 @@
             "tsConfig": "tsconfig.spec.json",
             "webWorkerTsConfig": "tsconfig.worker.json",
             "karmaConfig": "karma.conf.js",
-            "assets": ["src/assets", "src/pwa-manifest.json", "src/google385281288605d160.html"],
+            "assets": [
+              "src/assets",
+              "src/pwa-manifest.json",
+              "src/google385281288605d160.html"
+            ],
             "styles": [
               "src/styles/main.scss",
               {
@@ -215,6 +217,16 @@
             "ci": {
               "devServerTarget": "site:serve:ci"
             }
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "site:build:stable",
+            "firebaseProject": "angular-fr-36d3e",
+            "firebaseHostingSite": "angular-fr-doc"
           }
         }
       }

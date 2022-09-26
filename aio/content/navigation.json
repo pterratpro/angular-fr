@@ -2,7 +2,7 @@
   "TopBar": [
     {
       "url": "features",
-      "title": "Features"
+      "title": "Fonctionnalités"
     },
     {
       "url": "docs",
@@ -10,11 +10,11 @@
     },
     {
       "url": "resources",
-      "title": "Resources"
+      "title": "Ressources"
     },
     {
       "url": "events",
-      "title": "Events"
+      "title": "Evénements"
     },
     {
       "url": "https://blog.angular.io/",
@@ -23,19 +23,19 @@
   ],
   "TopBarNarrow": [
     {
-      "title": "About Angular",
+      "title": "A propos d'Angular",
       "children": [
         {
           "url": "features",
-          "title": "Features"
+          "title": "Fonctionnalités"
         },
         {
           "url": "resources",
-          "title": "Resources"
+          "title": "Ressources"
         },
         {
           "url": "events",
-          "title": "Events"
+          "title": "Evénèments"
         },
         {
           "url": "https://blog.angular.io/",
@@ -48,258 +48,258 @@
     {
       "url": "docs",
       "title": "Introduction",
-      "tooltip": "Welcome to the Angular documentation set.",
+      "tooltip": "Bienvenue dans la documentation Angular.",
       "hidden": false
     },
     {
-      "title": "Getting started",
-      "tooltip": "Set up your environment and learn basic concepts",
+      "title": "Pour démarrer",
+      "tooltip": "Mettez en place votre environnement et apprenez les concepts basiques",
       "children": [
         {
           "url": "guide/what-is-angular",
-          "title": "What is Angular?",
-          "tooltip": "A brief description of the Angular platform."
+          "title": "Qu'est ce qu'Angular?",
+          "tooltip": "Une description brève de la plateforme Angular."
         },
         {
-          "title": "Try it",
-          "tooltip": "Examine and work with a ready-made sample app, with no setup.",
+          "title": "Essayez-le",
+          "tooltip": "Examinez et travaillez avec un exemple d'application prêt à l'emploi, sans aucune configuration.",
           "children": [
             {
               "url": "start",
-              "title": "Getting started",
-              "tooltip": "Take a look at Angular's component model, template syntax, and component communication."
+              "title": "Pour commencer",
+              "tooltip": "Jetez un œil au template de composant d'Angular, à la syntaxe du template et à la communication des composants."
             },
             {
               "url": "start/start-routing",
-              "title": "Adding navigation",
-              "tooltip": "Navigate among different page views using the browser's URL."
+              "title": "Ajout de la navigation",
+              "tooltip": "Naviguez entre les différentes vues de page à l'aide de l'URL du navigateur."
             },
             {
               "url": "start/start-data",
-              "title": "Managing data",
-              "tooltip": "Use services and access external data via HTTP."
+              "title": "Gestion des données",
+              "tooltip": "Utilisez des services et accédez à des données externes via HTTP."
             },
             {
               "url": "start/start-forms",
-              "title": "Using forms for user input",
-              "tooltip": "Learn about fetching and managing data from users with forms."
+              "title": "Utiliser des formulaires pour la saisie de l'utilisateur",
+              "tooltip": "En savoir plus sur la récupération et la gestion des données des utilisateurs avec des formulaires."
             },
             {
               "url": "start/start-deployment",
-              "title": "Deploying an application",
-              "tooltip": "Move to local development, or deploy your application to Firebase or your own server."
+              "title": "Déployer une application",
+              "tooltip": "Passez au développement local ou déployez votre application sur Firebase ou sur votre propre serveur."
             }
           ]
         },
         {
           "url": "guide/setup-local",
           "title": "Setup",
-          "tooltip": "Setting up for local development with the Angular CLI."
+          "tooltip": "Mise en place pour le développement local avec la CLI Angular."
         }
       ]
     },
     {
-      "title": "Understanding Angular",
-      "tooltip": "Learn the essential concepts to become a proficient Angular developer.",
+      "title": "Comprehension d'Angular",
+      "tooltip": "Apprenez les concepts essentiels pour devenir un développeur Angular compétent.",
       "children": [
         {
-          "title": "Overview",
+          "title": "Aperçu",
           "url": "guide/understanding-angular-overview",
-          "tooltip": "Learn about the most common parts of an Angular application."
+          "tooltip": "Découvrez les parties les plus courantes d'une application Angular."
         },
         {
-          "title": "Components",
-          "tooltip": "Learn more about how to use data binding to build dynamic views",
+          "title": "Composants",
+          "tooltip": "En savoir plus sur l'utilisation de la liaison de données pour créer des vues dynamiques",
           "children": [
             {
               "url": "guide/component-overview",
-              "title": "Overview",
-              "tooltip": "Overview of how to create Angular components."
+              "title": "Aperçu",
+              "tooltip": "Aperçu sur la création de composants Angular."
             },
             {
               "url": "guide/lifecycle-hooks",
-              "title": "Component lifecycle",
-              "tooltip": "Angular calls lifecycle hook methods on directives and components as it creates, changes, and destroys them."
+              "title": "Cycle de vie d'un composant",
+              "tooltip": "Angular appelle les méthodes de hook du cycle de vie sur les directives et les composants lorsqu'il les crée, les modifie et les détruit."
             },
             {
               "url": "guide/view-encapsulation",
-              "title": "View encapsulation",
-              "tooltip": "Describes how component CSS styles are encapsulated into a component's view."
+              "title": "L'encapsulation d'une vue",
+              "tooltip": "Décrit comment les styles CSS des composants sont encapsulés dans la vue d'un composant."
             },
             {
               "url": "guide/component-interaction",
-              "title": "Component interaction",
-              "tooltip": "Share information between different directives and components."
+              "title": "Interaction des composants",
+              "tooltip": "Partagez des informations entre différentes directives et composants."
             },
             {
               "url": "guide/component-styles",
-              "title": "Component styles",
-              "tooltip": "Add CSS styles that are specific to a component."
+              "title": "Styles de composants",
+              "tooltip": "Ajoutez des styles CSS spécifiques à un composant."
             },
             {
               "url": "guide/inputs-outputs",
-              "title": "Sharing data between child and parent directives and components",
-              "tooltip": "Introductory guide to sharing data between parent and child directives or components."
+              "title": "Partage de données entre les directives et composants enfants et parents",
+              "tooltip": "Guide d'introduction au partage de données entre les directives ou composants parent et enfant."
             },
             {
               "url": "guide/content-projection",
-              "title": "Content projection",
-              "tooltip": "Learn how to create reusable components using Angular's content projection feature."
+              "title": "Projection de contenu",
+              "tooltip": "Apprenez à créer des composants réutilisables à l'aide de la fonction de projection de contenu d'Angular."
             },
             {
               "url": "guide/dynamic-component-loader",
-              "title": "Dynamic components",
-              "tooltip": "Load components dynamically."
+              "title": "Composants dynamiques",
+              "tooltip": "Chargez des composants dynamiquement."
             },
             {
               "url": "guide/elements",
               "title": "Angular elements",
-              "tooltip": "Convert components to Custom Elements."
+              "tooltip": "Convertir des composants en Custom Elements."
             }
           ]
         },
         {
           "title": "Templates",
-          "tooltip": "Syntax to use in templates for binding, expressions, and directives.",
+          "tooltip": "Syntaxe à utiliser dans les modèles pour la liaison, les expressions et les directives.",
           "children": [
             {
               "url": "guide/template-overview",
-              "title": "Overview",
-              "tooltip": "Introduction to templates."
+              "title": "Aperçu",
+              "tooltip": "Introduction aux templates."
             },
             {
               "url": "guide/template-syntax",
               "title": "Introduction",
-              "tooltip": "Introduction to writing templates that display data and consume user events with the help of data binding."
+              "tooltip": "Introduction pour écrire des templates qui affichent des données et consomment des événements utilisateur à l'aide de la liaison de données."
             },
             {
               "url": "guide/interpolation",
-              "title": "Text interpolation",
-              "tooltip": "An introduction to interpolation and expressions in HTML."
+              "title": "Interpolation de texte",
+              "tooltip": "Une introduction pour l'interpolation et les expressions en HTML."
             },
             {
               "url": "guide/template-statements",
-              "title": "Template statements",
-              "tooltip": "Introductory guide to statements in templates that respond to events that components, directives, or elements raise."
+              "title": "Déclarations de templates",
+              "tooltip": "Guide d'introduction aux instructions dans les templates qui répondent aux événements déclenchés par les composants, les directives ou les éléments."
             },
             {
-              "title": "Binding",
-              "tooltip": "A binding connects a template and a component.",
+              "title": "Liaison",
+              "tooltip": "Une liaison connecte un template et un composant.",
               "children": [
                 {
                   "url": "guide/binding-overview",
-                  "title": "Understanding binding",
-                  "tooltip": "Introductory guide to binding."
+                  "title": "Comprendre les liaisons",
+                  "tooltip": "Guide d'introcution aux liaisons."
                 },
                 {
                   "url": "guide/attribute-binding",
-                  "title": "Attribute binding",
-                  "tooltip": "Learn how to use attribute binding."
+                  "title": "Liaison d'attribut",
+                  "tooltip": "Apprendre comment utiliser les liaisons d'attribut."
                 },
                 {
                   "url": "guide/class-binding",
-                  "title": "Class and style binding",
-                  "tooltip": "Learn how to use class and style binding."
+                  "title": "Liaison de classe et de style",
+                  "tooltip": "Apprendre comment utiliser la liaison de classe et de style."
                 },
                 {
                   "url": "guide/event-binding",
-                  "title": "Event binding",
-                  "tooltip": "Learn how to use to event binding."
+                  "title": "Liaison d'évènements",
+                  "tooltip": "Apprendre comment utiliser les liaisons d'évènements."
                 },
                 {
                   "url": "guide/property-binding",
-                  "title": "Property binding",
-                  "tooltip": "Learn how to use property binding."
+                  "title": "Liaison de propriété",
+                  "tooltip": "Apprendre comment utiliser les liaison de propriété."
                 },
                 {
                   "url": "guide/two-way-binding",
-                  "title": "Two-way binding",
-                  "tooltip": "Learn how to share data between a class and a template."
+                  "title": "Two-way liaisons",
+                  "tooltip": "Apprendre comment partager les données entre une classe et un template."
                 }
               ]
             },
             {
               "title": "Pipes",
-              "tooltip": "Pipes transform displayed values within a template.",
+              "tooltip": "Pipes transforme les valeurs affichées dans un template.",
               "children": [
                 {
                   "url": "guide/pipes-overview",
-                  "title": "Understanding pipes",
-                  "tooltip": "Introductory guide to pipes."
+                  "title": "Comprendre les pipes",
+                  "tooltip": "Guide d'introduction aux pipes."
                 },
                 {
                   "url": "guide/pipe-template",
-                  "title": "Using a pipe in a template",
-                  "tooltip": "Learn how to use a pipe in a template."
+                  "title": "Utiliser un pipe dans un template",
+                  "tooltip": "Apprendre comment utiliser un pipe dans un template."
                 },
                 {
                   "url": "guide/pipes-transform-data",
-                  "title": "Transforming data with parameters and chained pipes",
-                  "tooltip": "Learn how to use a pipe transform data."
+                  "title": "Transformer les données avec des paramètres et des pipes enchaînés",
+                  "tooltip": "Apprenez à utiliser des données de transformation de pipes."
                 }
               ]
             },
             {
               "url": "guide/template-reference-variables",
-              "title": "Template reference variables",
-              "tooltip": "Introductory guide to referring to DOM elements within a template."
+              "title": "Variables de référence du template",
+              "tooltip": "Guide d'introduction pour se référer aux éléments DOM dans un template."
             },
             {
               "url": "guide/svg-in-templates",
-              "title": "SVG as templates",
-              "tooltip": "Learn how to use SVGs as templates for Angular applications."
+              "title": "SVG comme templates",
+              "tooltip": "Apprenez à utiliser les SVG comme templates pour les applications Angular."
             }
           ]
         },
         {
           "title": "Directives",
-          "tooltip": "Control the behavior of elements and the layout of your pages with directives.",
+          "tooltip": "Contrôlez le comportement des éléments et la disposition de vos pages avec des directives.",
           "children": [
             {
               "url": "guide/built-in-directives",
-              "title": "Built-in directives",
-              "tooltip": "Introductory guide to some of the most popular built-in directives."
+              "title": "Directives intégrées",
+              "tooltip": "Guide d'introduction à certaines des directives intégrées les plus populaires."
             },
             {
               "url": "guide/attribute-directives",
-              "title": "Attribute directives",
-              "tooltip": "Attribute directives attach behavior to elements."
+              "title": "Directives d'attribut",
+              "tooltip": "Les directives d'attribut attachent le comportement aux éléments."
             },
             {
               "url": "guide/structural-directives",
-              "title": "Structural directives",
-              "tooltip": "Structural directives manipulate the layout of the page."
+              "title": "Directives structurelles",
+              "tooltip": "Les directives structurelles manipulent la disposition de la page."
             }
           ]
         },
         {
-          "title": "Dependency injection",
-          "tooltip": "Dependency injection: creating and injecting services",
+          "title": "Injection de dépendance",
+          "tooltip": "Injection de dépendance: services de création et d'injection",
           "children": [
             {
               "url": "guide/dependency-injection-overview",
-              "title": "Dependency injection in Angular",
-              "tooltip": "Dependency injection is a design pattern in which a class requests dependencies from external sources."
+              "title": "Injection de dépendance avec Angular",
+              "tooltip": "L'injection de dépendance est un template de conception dans lequel une classe demande les dépendances de sources externes."
             },
             {
               "url": "guide/dependency-injection",
-              "title": "Understanding dependency injection",
-              "tooltip": "Angular's dependency injection system creates and delivers dependent services to Angular-created classes."
+              "title": "Comprendre l'injection de dépendance",
+              "tooltip": "Le système d'injection de dépendance d'Angular crée et fournit des services dépendants aux classes créées par Angular."
             },
             {
               "url": "guide/creating-injectable-service",
-              "title": "Creating an injectable service",
-              "tooltip": "Example of creating an injectable service."
+              "title": "Création d'un service injectable",
+              "tooltip": "Exemple de création d'un service injectable."
             },
             {
               "url": "guide/dependency-injection-providers",
-              "title": "Defining dependency providers",
-              "tooltip": "A provider factory function is a plain function that Angular can call to create a dependency."
+              "title": "Définition des fournisseurs de dépendances",
+              "tooltip": "Une fonction d'usine de fournisseurs est une fonction simple qu'Angular peut appeler pour créer une dépendance."
             },
             {
               "url": "guide/hierarchical-dependency-injection",
-              "title": "Hierarchical injectors",
-              "tooltip": "Hierarchical dependency injection enables you to share dependencies between different parts of the application only when and if you need to."
+              "title": "Injecteurs hiérarchiques",
+              "tooltip": "L'injection de dépendance hiérarchique vous permet de partager des dépendances entre différentes parties de l'application uniquement lorsque vous en avez besoin."
             }
           ]
         }
@@ -1113,119 +1113,119 @@
           ]
         },
         {
-          "title": "CLI Command Reference",
-          "tooltip": "Angular CLI command reference.",
+          "title": "Référence de commande CLI",
+          "tooltip": "Référence de commande CLI Angular.",
           "children": [
             {
-              "title": "Overview",
-              "tooltip": "An introduction to the CLI tool, commands, and syntax.",
+              "title": "Aperçu",
+              "tooltip": "Une introduction à l'outil CLI, aux commandes et à la syntaxe.",
               "url": "cli"
             },
             {
-              "title": "Usage analytics",
-              "tooltip": "For administrators, guide to gathering usage analytics from your users.",
+              "title": "Analyse d'utilisation",
+              "tooltip": "Pour les administrateurs, guide pour rassembler les analyses d'utilisation de vos utilisateurs.",
               "url": "cli/usage-analytics-gathering"
             }
           ]
         },
         {
-          "title": "API reference",
-          "tooltip": "Details of the Angular packages, classes, interfaces, and other types.",
+          "title": "Référence de l'API",
+          "tooltip": "Détails des packages Angular, classes, interfaces et autres types.",
           "url": "api"
         },
         {
-          "title": "Error reference",
-          "tooltip": "Details of the errors that can be thrown by Angular.",
+          "title": "Référence d'erreur",
+          "tooltip": "Détails des erreurs qui peuvent être lancées par Angular.",
           "children": [
             {
-              "title": "Overview",
+              "title": "Aperçu",
               "url": "errors",
               "hidden": true
             }
           ]
         },
         {
-          "title": "Extended diagnostic reference",
-          "tooltip": "Details of extended diagnostics that can be emitted by the Angular compiler",
+          "title": "Référence diagnostique prolongée",
+          "tooltip": "Détails des diagnostics étendus qui peuvent être émis par le compilateur Angular",
           "children": [
             {
               "url": "extended-diagnostics",
-              "title": "Extended Diagnostics Overview",
-              "tooltip": "Overview of extended diagnostics, what they are, and how to configure them."
+              "title": "Aperçu du diagnostic prolongé",
+              "tooltip": "Aperçu des diagnostics étendus, ce qu'ils sont et comment les configurer."
             }
           ]
         },
         {
-          "title": "Example applications",
-          "tooltip": "List of all of the example applications in the Angular documentation.",
+          "title": "Example d'applications",
+          "tooltip": "Liste de toutes les exemples d'applications dans la documentation Angular.",
           "url": "guide/example-apps-list"
         },
         {
           "url": "guide/glossary",
-          "title": "Angular glossary",
-          "tooltip": "Brief definitions of the most important words in the Angular vocabulary."
+          "title": "Glossaire Angular",
+          "tooltip": "De brèves définitions des mots les plus importants du vocabulaire Angular."
         },
         {
-          "title": "Angular coding style",
-          "tooltip": "Summaries of Angular syntax, coding, and doc styles.",
+          "title": "Style de code Angular",
+          "tooltip": "Résumées de la syntaxe Angular, du code et des styles DOC.",
           "children": [
             {
               "url": "guide/cheatsheet",
-              "title": "Quick reference",
-              "tooltip": "A quick guide to common Angular coding techniques."
+              "title": "Référence rapide",
+              "tooltip": "Un guide rapide des techniques de code Angular commun."
             },
             {
               "url": "guide/styleguide",
-              "title": "Coding style guide",
-              "tooltip": "Guidelines for writing Angular code."
+              "title": "Guide de style de code",
+              "tooltip": "Lignes directrices pour la rédaction du code Angular."
             }
           ]
         }
       ]
     },
     {
-      "title": "Documentation contributor guide",
-      "tooltip": "Describes how to contribute to the Angular documentation.",
+      "title": "Guide des contributeurs de documentation",
+      "tooltip": "Décrit comment contribuer à la documentation Angular.",
       "children": [
         {
           "url": "guide/contributors-guide-overview",
-          "title": "Overview",
-          "tooltip": "Provides an overview of how to contribute to Angular's documentation."
+          "title": "Aperçu",
+          "tooltip": "Fournit un aperçu de la façon de contribuer à la documentation d'Angular."
         },
         {
           "url": "guide/reviewing-content",
-          "title": "Reviewing documentation",
-          "tooltip": "Keep Angular content up-to-date by reviewing topics for accuracy."
+          "title": "Examen de la documentation",
+          "tooltip": "Gardez le contenu Angular à jour en examinant des sujets pour la précision."
         },
         {
           "url": "guide/updating-search-keywords",
-          "title": "Updating search keywords",
-          "tooltip": "Help users find the content they need by adding additional search keywords."
+          "title": "Mise à jour des mots clés de recherche",
+          "tooltip": "Aidez les utilisateurs à trouver le contenu dont ils ont besoin en ajoutant des mots clés de recherche supplémentaires."
         },
         {
           "url": "guide/updating-content-github-ui",
-          "title": "Updating content using GitHub UI",
-          "tooltip": "Update topics in the browser through the GitHub user interface."
+          "title": "Mise à jour du contenu à l'aide de l'interface utilisateur GitHub",
+          "tooltip": "Mettez à jour les sujets du navigateur via l'interface utilisateur GitHub."
         },
         {
           "url": "guide/docs-style-guide",
-          "title": "Documentation style guide",
-          "tooltip": "Style guide for documentation authors."
+          "title": "Guide de style de documentation",
+          "tooltip": "Guide de style pour les auteurs de documentation."
         },
         {
           "url": "guide/docs-lint-errors",
-          "title": "Resolving documentation linter messages",
-          "tooltip": "More information about documentation lint errors."
+          "title": "Résolution des messages de la documentation Linter",
+          "tooltip": "Plus d'informations sur les erreurs de linting de documentation."
         },
         {
           "url": "guide/localizing-angular",
-          "title": "Angular doc localization guidelines",
-          "tooltip": "Learn about the guidelines for localizing Angular documentation."
+          "title": "Guidelines de localisation de la documentation Angular",
+          "tooltip": "Découvrez les directives pour localiser la documentation Angular."
         },
         {
           "url": "guide/localized-documentation",
-          "title": "Localized documentation",
-          "tooltip": "A list of localized versions of the Angular documentation",
+          "title": "Documentation localisée",
+          "tooltip": "Une liste des versions localisées de la documentation Angular",
           "hidden": true
         }
       ]
@@ -1237,18 +1237,18 @@
       "children": [
         {
           "url": "about",
-          "title": "About",
-          "tooltip": "Angular contributors."
+          "title": "À propos",
+          "tooltip": "Contributeurs Angular."
         },
         {
           "url": "resources",
-          "title": "Resource listing",
-          "tooltip": "Angular tools, training, and blogs from around the web."
+          "title": "Liste des ressources",
+          "tooltip": "Outils Angular, formation et blogs sur le Web."
         },
         {
           "url": "presskit",
-          "title": "Press kit",
-          "tooltip": "Press contacts, logos, and branding."
+          "title": "dossier de presse",
+          "tooltip": "Appuyez sur Contacts, Logos et Branding."
         },
         {
           "url": "https://blog.angular.io/",
@@ -1257,38 +1257,38 @@
         },
         {
           "url": "analytics",
-          "title": "Usage analytics",
-          "tooltip": "Angular Usage Analytics"
+          "title": "Analyse d'utilisation",
+          "tooltip": "Analyse d'utilisation d'Angular"
         }
       ]
     },
     {
-      "title": "Help",
+      "title": "Aide",
       "children": [
         {
           "url": "https://stackoverflow.com/questions/tagged/angular",
           "title": "Stack Overflow",
-          "tooltip": "Stack Overflow: where the community answers your technical Angular questions."
+          "tooltip": "Stack Overflow: où la communauté répond à vos questions techniques sur Angular."
         },
         {
           "url": "https://discord.gg/angular",
-          "title": "Join Discord",
-          "tooltip": "Join the discussions at Angular Community Discord server."
+          "title": "Rejoignez Discord",
+          "tooltip": "Rejoignez les discussions sur Angular Community Discord Server."
         },
         {
           "url": "https://gitter.im/angular/angular",
           "title": "Gitter",
-          "tooltip": "Chat about Angular with other birds of a feather."
+          "tooltip": "Discutez à propos d'Angular"
         },
         {
           "url": "https://github.com/angular/angular/issues",
-          "title": "Report Issues",
-          "tooltip": "Post issues and suggestions on github."
+          "title": "Signaler des problèmes",
+          "tooltip": "Poster les problèmes et les suggestions sur GitHub."
         },
         {
           "url": "https://github.com/angular/code-of-conduct/blob/main/CODE_OF_CONDUCT.md",
-          "title": "Code of Conduct",
-          "tooltip": "Treating each other with respect."
+          "title": "Code de conduite",
+          "tooltip": "Se traiter avec respect."
         }
       ]
     },
@@ -1297,13 +1297,13 @@
       "children": [
         {
           "url": "events",
-          "title": "Events",
-          "tooltip": "Angular events around the world."
+          "title": "Événements",
+          "tooltip": "Événements Angular dans le monde."
         },
         {
           "url": "https://www.meetup.com/topics/angularjs/",
           "title": "Meetups",
-          "tooltip": "Attend a meetup and learn from fellow developers."
+          "tooltip": "Assistez à un meetup et apprenez des autres développeurs."
         },
         {
           "url": "https://twitter.com/angular",
@@ -1317,8 +1317,8 @@
         },
         {
           "url": "contribute",
-          "title": "Contribute",
-          "tooltip": "Contribute to Angular"
+          "title": "Contribuer",
+          "tooltip": "Contribuer à Angular"
         }
       ]
     },
