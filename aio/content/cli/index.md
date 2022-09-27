@@ -16,7 +16,7 @@ npm install -g &commat;angular/cli<aio-angular-dist-tag class="pln"></aio-angula
 
 Pour plus de détails sur les changements entre les versions, et des informations sur la mise à jour à partir de versions précédentes, voir l'onglet Releases sur GitHub : https://github.com/angular/angular-cli/releases
 
-## Basic workflow
+## Flux de travail de base
 
 Appelez l'outil sur la ligne de commande via l'exécutable `ng`.
 Une aide en ligne est disponible sur la ligne de commande.
@@ -51,7 +51,7 @@ Si le répertoire de travail actuel n'est pas le bon endroit pour votre projet, 
 
 </div>
 
-## Workspaces and project files
+## Espaces de travail et fichiers de projet
 
 La commande [ng new](cli/new) crée un dossier *Angular workspace* et génère un nouveau modèle d'application.
 Un espace de travail peut contenir plusieurs applications et bibliothèques.
@@ -108,7 +108,7 @@ La syntaxe des commandes est présentée comme suit :
 *   Les noms des arguments et des options doivent être donnés en [dash-case] (guide/glossary#case-types).
     Par exemple :`--my-option-name`
 
-### Boolean options
+### Options booléennes
 
 Les options booléennes ont deux formes : `--this-option` met l'indicateur à `true`, `--no-this-option` le met à `false`.
 Si aucune option n'est fournie, l'indicateur reste dans son état par défaut, comme indiqué dans la documentation de référence.
