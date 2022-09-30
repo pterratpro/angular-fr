@@ -214,7 +214,7 @@ Voici les fichiers de code de cette page.
     <code-pane header="src/app/hero.ts" path="toh-pt1/src/app/hero.ts"></code-pane>
 </code-tabs>
 
-## Summary
+## Sommaire
 
 - Vous avez utilisé `ng generate` pour créer un second `HeroesComponent`.
 - Vous avez affiché `HeroesComponent` par ajout dans le shell `AppComponent`.

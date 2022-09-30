@@ -2,7 +2,7 @@
 
 Utilisez la commande `ng new` pour commencer à créer votre application **Tour of Heroes**.
 
-This tutorial:
+Ce tutoriel:
 
 1. Configure votre environnement.
 2. Crée un nouvel espace de travail et l'application initiale.
